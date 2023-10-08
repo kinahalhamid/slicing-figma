@@ -1,0 +1,266 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --main-color: #7839f3;
+}
+.nav-laracamp {
+    background-color: black;
+    nav {
+        .navbar-brand {
+            width: 185px;
+            height: 54px;
+            top: 36px;
+            margin-bottom: 25px;
+            margin-top: 30px;
+            padding-left: 102px;
+            padding-right: 325px;
+        }
+
+        .collapse {
+            ul {
+                margin-left: 100px;
+                .nav-item {
+                    margin-right: 5px;
+
+                    .nav-link {
+                        font-weight: 700;
+                        font-size: 16px;
+                        color: #ffffff;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .halo {
+                span {
+                    margin-right: 12px;
+                    font-weight: 700;
+                    font-size: 20px;
+                    color: #ffffff;
+                }
+                .img-user {
+                    width: 25px;
+                    height: 35px;
+                    top: 46px;
+                }
+            }
+        }
+    }
+}
+// hero
+.hero {
+    background: url("/img/Rectangle 4.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    object-position: center;
+
+    .container {
+        .row {
+            .klmt {
+                margin-top: 231px;
+                .kalimat {
+                    h2 {
+                        color: white;
+                        font-weight: 700;
+                        font-size: 32px;
+                    }
+                    p {
+                        color: white;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    .btn-contact {
+                        background-color: #dfff17f0;
+                        border-radius: 10px;
+                        color: black;
+                        height: 49px;
+                        width: 215px;
+                    }
+                }
+            }
+        }
+    }
+}
+// olahraga
+.olahraga {
+    background-color: black;
+    .container {
+        .row {
+            img {
+                width: 250px;
+                height: 305px;
+                margin-top: 188px;
+                border-radius: 10px;
+                margin-bottom: 272px;
+            }
+            .col {
+                padding-left: 30px;
+            }
+            .col1 {
+                padding-left: 75px;
+            }
+            .col2 {
+                padding-left: 90px;
+            }
+        }
+    }
+}
+// aboutus
+.aboutus {
+    background-color: black;
+    h1 {
+        font-weight: 800px;
+        font-size: 48;
+        line-height: 51px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 110px;
+    }
+    .container-fluid {
+        background-color: black;
+        .row {
+            background-color: black;
+            .img-about {
+                width: 400px;
+                img {
+                    height: 200px;
+                }
+            }
+            .content-decs {
+                font-weight: 500px;
+                height: 51px;
+                border-radius: 15px;
+                color: #ffffff;
+            }
+            img {
+                padding-left: 48px;
+                width: 700px;
+                height: 350px;
+                padding-right: 48px;
+                padding-left: 48px;
+                border-radius: 15px;
+                margin-bottom: 100px;
+            }
+        }
+    }
+}
+
+// cooperation
+.cooperation {
+    background-color: black;
+    h1 {
+        font-weight: 800px;
+        font-size: 40;
+        line-height: 51px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .container {
+        .frame {
+            width: 100%;
+            padding-bottom: 100px;
+            padding-top: 100px;
+        }
+    }
+}
+// contactus
+.contactus {
+    background-color: black;
+    size: 90px;
+    padding-bottom: 800px;
+    h1 {
+        font-weight: 800px;
+        font-size: 40;
+        line-height: 51px;
+        color: #ffffff;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    form {
+        padding-left: 300px;
+        color: white;
+        height: 48px;
+
+        label {
+            font-size: 30px;
+            padding-bottom: 10px;
+        }
+        .btn-send {
+            width: 750px;
+            height: 60px;
+            background-color: #bad519;
+            font-size: 30px;
+            margin-top: 150px;
+            border-radius: 15px;
+        }
+    }
+    input {
+        color: black;
+        width: 750px;
+        background-color: #000000;
+        border-color: white;
+        border-radius: 15px;
+        height: 60px;
+    }
+}
+
+// footer
+.footer {
+    background-color: #000000d4;
+    .logo {
+        padding-top: 35px;
+        padding-left: 44px;
+        width: 205px;
+    }
+    .container {
+        .row {
+            padding-top: 50px;
+            padding-bottom: 80px;
+            padding-left: 20px;
+            text-align: center;
+            font-weight: 500;
+
+            h4 {
+                color: white;
+                text-align: center;
+                padding-bottom: 25px;
+                font-weight: 800;
+                font-size: 26px;
+            }
+            .btn-a {
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 15px;
+            }
+            .btn-medsos {
+                width: 70px;
+            }
+        }
+    }
+}
+
+// footer2
+.footer2 {
+    background-color: #000000;
+    padding-bottom: 20px;
+    color: white;
+    padding-top: 30px;
+    font-weight: 500;
+    line-height: 15px;
+    font-size: 18px;
+    img {
+        width: 20px;
+        float: left;
+        margin-right: 10px;
+    }
+    .container {
+        span {
+            margin-left: 70px;
+        }
+        .homepage {
+            padding-left: 350px;
+        }
+    }
+}
